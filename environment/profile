@@ -1,0 +1,4 @@
+#!/bin/bash
+alias "compose-up"="docker-compose up -d"
+alias "compose-down"="docker-compose down"
+alias "compose-restart"="compose-down && compose-down"
